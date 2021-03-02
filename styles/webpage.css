@@ -1,0 +1,53 @@
+body
+{
+	margin: opx;
+	font-family: 'Arial',sans-serif;
+}
+
+/*.....MAIN HEADER.....*/
+
+#main-header
+{
+	background:white  url(../images/headerimage1.jpg) no-repeat scroll center;
+	height: 100px;
+	background-size:cover;
+	padding: 10px;
+	text-align: right;
+}
+#main-header h1
+{
+	margin: 0px;
+    color: rgba(227,21,43,0.7);
+    font-size: 35px;
+}
+/*......MAIN NAV......*/
+#main-nav
+{
+	background:linear-gradient(45deg,lightgreen,teal,blue,navy);
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+}
+#main-nav a
+{
+	color: white;
+	text-decoration: none;
+	margin-left:80px;
+	display: inline-block;
+	padding: 8px 15px;
+
+}
+#main-nav a.active
+{
+	background:linear-gradient(45deg,darkgray,darkred);
+	border-radius: 10px;
+	color: white;
+}
+#main-nav a:hover
+{
+	background:linear-gradient(45deg,darkred,brown);
+	border-radius: 5px 10px;
+	box-shadow: 6px 0 10px black;
+
+
+}
